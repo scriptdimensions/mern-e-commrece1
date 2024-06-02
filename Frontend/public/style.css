@@ -1,0 +1,259 @@
+/* Signup.css */
+* {
+    box-sizing: border-box;
+    list-style: none;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .signup-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%;
+  }
+  
+  .signup-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .signup-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-container form>div label {
+    display: block;
+  }
+  
+  .signup-container label {
+    margin-bottom: 5px;
+  }
+  
+  .signup-container input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .signup-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .signup-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Login.css */
+  .login-container {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .login-container input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .login-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Home.css */
+  
+  .cm-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .cm-container h1 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .cm-container p {
+    color: #666;
+    font-size: 1.2rem;
+  }
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  #root {
+    background: linear-gradient(to bottom, #38a8d1 0%, #34bc9a 36%, #34bc9a 57%, #8645f7 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header nav ul {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    width: fit-content;
+    text-decoration: none;
+    border: 1px solid #ddd;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header ul a {
+    text-decoration: none;
+  }
+  
+  header ul a.active {
+    background-color: #ddd;
+    color: rgba(55, 186, 177, 1);
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    list-style: none;
+    width: 160px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    border: 1px dashed rgba(255, 255, 255, 0);
+    color: #fff;
+    padding: 10px 0 10px 0;
+    margin: -1px -5px -1px -1px;
+    cursor: pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+  }
+  
+  nav ul li a:hover {
+    /*border:1px dashed #fff;*/
+    background: rgba(255, 255, 255, .1);
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  header .btns {
+    display: flex;
+    gap: 20px;
+  }
+  
+  header .btns a {
+    text-decoration: none;
+    background-color: #007bff;
+    display: block;
+    padding: 11px 20px;
+  }
+  
+  
+  /* styles.css */
+  
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+    margin:  auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="number"],
+  .form-container input[type="file"],
+  .form-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-container button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  .products ul {
+    display: flex;
+    border: 1px solid;
+    max-width: 740px;
+    margin: 0px auto;
+  }
+  .products ul li img{
+      height: 100px;
+      width: 100px;
+      object-fit: contain;
+  }
+  .products ul li {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    /* justify-content: stretch; */
+    padding: 12px;
+}
+  .products ul li button{
+    width: 20px;
+    height: 20px;
+  }
